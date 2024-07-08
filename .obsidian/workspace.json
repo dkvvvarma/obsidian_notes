@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0538b05f1581434",
+  "active": "13660b5fe028af4e",
   "lastOpenFiles": [
     "Pasted image 20240708143647.png",
     "TryHackMe/Untitled.canvas",
