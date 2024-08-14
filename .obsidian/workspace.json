@@ -8,65 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de2eaaa7365ed5c8",
+            "id": "68d2bf948e5c2443",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading/Cyber Threat Intel.md",
+                "file": "CYBERSECUIRTY/HackTheBox/Bash Scripting.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0b2b8bce69ef3b40",
+            "id": "cb83c86f72360271",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading/Cyber Threat Intel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7495277eae0175f6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
-            "id": "11ab9117d7c9c021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRT/JAVA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffe11cd3a303b8bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Internship.md",
+                "file": "CTF/Mobile/SuperSecureApp.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,6 +77,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "8bf8c2e84639fad8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ]
       }
@@ -132,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Internship.md",
+                "file": "CTF/Mobile/SuperSecureApp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Internship.md",
+                "file": "CTF/Mobile/SuperSecureApp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Internship.md"
+                "file": "CTF/Mobile/SuperSecureApp.md"
               }
             }
           }
@@ -193,42 +167,54 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "ffe11cd3a303b8bc",
+  "active": "cb83c86f72360271",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Internship.md",
-    "CYBERSECUIRTY/TryHackMe/Post-Exploitation Basics.md",
-    "Oopsie.md",
-    "Attachments/Pasted image 20240801103900.png",
-    "CRT/JAVA.md",
-    "Reading/Cyber Threat Intel.md",
-    "().md",
-    "Attachments/Pasted image 20240717145007.png",
-    "CYBERSECUIRTY/HackTheBox",
-    "CYBERSECUIRTY/TryHackMe/GoldenEye.md",
+    "CTF/API/The JWT Conundrum.md",
+    "Attachments/Pasted image 20240811121630.png",
+    "Attachments/Pasted image 20240811121626.png",
+    "Attachments/Pasted image 20240811121514.png",
+    "CTF/Web/I am Weak.md",
+    "Attachments/Pasted image 20240811115543.png",
+    "CTF/API/The Sneaky Admin.md",
+    "CTF/API/Racing Time.md",
+    "Attachments/Pasted image 20240811115246.png",
+    "CTF/Infrastructure/Assassins Brotherhood - 2.md",
+    "CTF/Web/I can't see.md",
+    "CTF/Web/Not a Bruteforce One.md",
+    "CTF/Infrastructure/gRPC - Reverse Parking Cat - Part 1.md",
+    "CTF/Infrastructure/gRPC - Reverse Parking Cat - Part 2.md",
+    "CTF/Cloud/Presigns Rains.md",
+    "CTF/OT/mqtt1 - Master Qutie TT -P1.md",
+    "CYBERSECUIRTY/HackTheBox/Bash Scripting.md",
+    "CTF/OT/mqtt1 - Master Qutie TT -P2.md",
+    "CTF/Cloud/Credentials Everywhere.md",
+    "CTF/Infrastructure/Uncover the Secrets of CyberCorp's Directory - 2.md",
+    "Attachments/Pasted image 20240811060122.png",
+    "CTF/Infrastructure/Uncover the Secrets of CyberCorp's Directory - 1.md",
+    "CTF/OSINT/THE CODED TRAIL.md",
+    "CTF/Mobile/SuperSecureApp.md",
+    "CTF/Mobile",
+    "Attachments/Pasted image 20240811045456.png",
+    "Attachments/Pasted image 20240811045256.png",
+    "Attachments/Pasted image 20240811045237.png",
+    "Attachments/Pasted image 20240811044406.png",
+    "CTF/Infrastructure/Assassins Brotherhood - 1.md",
+    "CTF/API",
+    "Memorandum Dissolve 5.md",
+    "Attachments/sWyANXnm_nibetsap.zip",
+    "CTF/OSINT/Hacking the admins.md",
+    "CTF/Crypto/Crypts Beyond The Wall.md",
+    "CTF/OT/Modulus Bus Station.md",
+    "CTF/Web/I can't see",
+    "CTF/OT",
+    "CTF/Cloud/DATA VAULT.md",
+    "CTF/Crypto/Micro RSA.md",
+    "Attachments/values.txt",
+    "CTF/Crypto",
+    "CTF/Infrastructure",
+    "CTF/Web",
+    "CTF/Cloud",
     "Untitled.canvas",
-    "Attachments/Pasted image 20240713225724.png",
-    "TryHackMe/Pasted image 20240717101736.png",
-    "GoldenEye-2.md",
-    "Attachments/Pasted image 20240717105407.png",
-    "Attachments/Pasted image 20240717105331.png",
-    "Attachments/Pasted image 20240717105311.png",
-    "Attachments/Pasted image 20240717105249.png",
-    "Attachments/Pasted image 20240717105225.png",
-    "Attachments/Pasted image 20240717105203.png",
-    "CYBERSECUIRTY/TryHackMe/Windows Network Analysis.md",
-    "Attachments",
-    "gsg.md",
-    "CYBERSECUIRTY/Blue team/SOC Fundamentals.md",
-    "TryHackMe/SQLMAP.md",
-    "Reading",
-    "Welcome.md",
-    "create a link.md",
-    "CRT/Untitled",
-    "CRT",
-    "TryHackMe/Untitled.canvas",
-    "CYBERSECUIRTY/TryHackMe",
-    "CYBERSECUIRTY/Blue team",
-    "CYBERSECUIRTY"
+    "TryHackMe/Untitled.canvas"
   ]
 }
