@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Havoc C2.md",
+                "file": "Sticker Shop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Havoc C2"
+              "title": "Sticker Shop"
             }
           },
           {
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,12 +196,13 @@
   },
   "active": "ec4bdf92090cdd59",
   "lastOpenFiles": [
+    "Welcome.md",
+    "Havoc C2.md",
     "Threat Intel.md",
     "2025-02-07.md",
     "TryHackMe/Post-Exploitation Basics.md",
     "Unindexed Web Forensics/Unveiling Anonymity.md",
     "Unindexed Web Forensics/Unindexed forensics execution.md",
-    "Havoc C2.md",
     "fiercest comp.md",
     "CYBERSECUIRTY/Soc Automation project.md",
     "CYBERSECUIRTY/bash program.md",
@@ -234,7 +234,6 @@
     "HackTheBox/Machines/Blurry.md",
     "CYBERSECUIRTY/Blue team/SOC Fundamentals.md",
     "ADV CODE/Advance Coding Assignment-3.md",
-    "01. TO-DO List.md",
     "ADV CODE",
     "Attachments/The Needle.zip",
     "HackTheBox/Challenges",
