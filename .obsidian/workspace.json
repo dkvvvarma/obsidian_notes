@@ -1,34 +1,20 @@
 {
   "main": {
-    "id": "919694e14d5417f7",
+    "id": "93b8025af8600286",
     "type": "split",
     "children": [
       {
-        "id": "7f7d51e98c087e3a",
+        "id": "89b521e652b5e0bc",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4bdf92090cdd59",
+            "id": "69465a64a0eeba2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TryHackMe/Post-Exploitation Basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Post-Exploitation Basics"
-            }
-          },
-          {
-            "id": "cd9d260d4d1a7479",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -37,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f18c7307dc9d6f9a",
+    "id": "2f43316fc23a7c77",
     "type": "split",
     "children": [
       {
-        "id": "588dde6d1fb4892f",
+        "id": "154dfa6bcf20537a",
         "type": "tabs",
         "children": [
           {
-            "id": "1f3af899685c9d93",
+            "id": "4e298a59ce9dd622",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +44,7 @@
             }
           },
           {
-            "id": "37ab323250f76dbe",
+            "id": "3bc524a88ffbb7f1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,23 +61,13 @@
             }
           },
           {
-            "id": "8b581e8130660425",
+            "id": "04aadc47b6d21e47",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "8bf8c2e84639fad8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -101,20 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "695ad2a58c66381a",
+    "id": "8dfc95fa8cc597a7",
     "type": "split",
     "children": [
       {
-        "id": "502e489c03881ca7",
+        "id": "f55394b3e8819175",
         "type": "tabs",
         "children": [
           {
-            "id": "04230501f35c19f9",
+            "id": "c3f1454ad10a29bf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Case study.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Case study"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "646cf7e85b825b8b",
+            "id": "7fb0d41db84b194a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unindexed Web Forensics/Unindexed forensics execution.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Unindexed forensics execution"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "87d65ac2ac010c04",
+            "id": "e28ff58efeae7ef9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,62 +131,73 @@
             }
           },
           {
-            "id": "af8bb853297a2f5c",
+            "id": "6c1bedd949f9fbdf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unindexed Web Forensics/Unindexed forensics execution.md"
+                "file": "Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Unindexed forensics execution"
-            }
-          },
-          {
-            "id": "87340a1fb7d94945",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec4bdf92090cdd59",
+  "active": "4e298a59ce9dd622",
   "lastOpenFiles": [
-    "HackTheBox/Machines/Sightless.md",
-    "Sticker Shop.md",
+    "fiercest comp.md",
     "Welcome.md",
-    "Havoc C2.md",
-    "Threat Intel.md",
-    "2025-02-07.md",
-    "TryHackMe/Post-Exploitation Basics.md",
     "Unindexed Web Forensics/Unveiling Anonymity.md",
     "Unindexed Web Forensics/Unindexed forensics execution.md",
-    "fiercest comp.md",
-    "CYBERSECUIRTY/Soc Automation project.md",
-    "CYBERSECUIRTY/bash program.md",
+    "Unindexed Web Forensics/Based.md",
+    "Unindexed Web Forensics",
+    "TryHackMe/Windows Network Analysis.md",
+    "TryHackMe/Post-Exploitation Basics.md",
+    "TryHackMe/Intro to Cold System Forensic.md",
+    "TryHackMe/GoldenEye.md",
+    "TryHackMe",
+    "Sticker Shop.md",
+    "Reading/Cyber Threat Intel.md",
+    "Reading",
     "Project.md",
-    "Internship/Internship report.md",
-    "Additive Manufacturing Assignment.md",
+    "KPMG_CTF/Web/Not a Bruteforce One.md",
+    "KPMG_CTF/Web/I can't see.md",
+    "KPMG_CTF/Web/I am Weak.md",
+    "KPMG_CTF/OT/mqtt1 - Master Qutie TT -P2.md",
+    "KPMG_CTF/OT/mqtt1 - Master Qutie TT -P1.md",
+    "KPMG_CTF/OT/Modulus Bus Station.md",
+    "KPMG_CTF/OSINT/THE CODED TRAIL.md",
+    "KPMG_CTF/OSINT/Hacking the admins.md",
+    "KPMG_CTF/Mobile/SuperSecureApp.md",
+    "KPMG_CTF/Infrastructure/gRPC - Reverse Parking Cat - Part 2.md",
+    "KPMG_CTF/Infrastructure/Assassins Brotherhood - 2.md",
+    "KPMG_CTF/Infrastructure/gRPC - Reverse Parking Cat - Part 1.md",
+    "KPMG_CTF/Infrastructure/Uncover the Secrets of CyberCorp's Directory - 2.md",
+    "KPMG_CTF/Infrastructure/Uncover the Secrets of CyberCorp's Directory - 1.md",
+    "KPMG_CTF/Web",
+    "KPMG_CTF/OT",
+    "KPMG_CTF/OSINT",
+    "KPMG_CTF/Mobile",
+    "KPMG_CTF/Infrastructure",
+    "KPMG_CTF/Crypto",
+    "KPMG_CTF/Cloud",
     "Attachments/Pasted image 20250129230525.png",
     "Attachments/Pasted image 20250129230515.png",
     "Attachments/Pasted image 20250129230159.png",
@@ -221,29 +208,6 @@
     "Attachments/Pasted image 20250129225204.png",
     "Attachments/Pasted image 20250129225020.png",
     "Attachments/Pasted image 20250129224824.png",
-    "Unindexed Web Forensics/Based.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "2025-01-23.md",
-    "ADV CODE/Advance Coding Assignment-5.md",
-    "ADV CODE/Advance Coding Assignment-4.md",
-    "HackTheBox/Machines/Alert.md",
-    "HackTheBox/Sherlocks/Crown Jewel-1.md",
-    "HackTheBox/Machines/Greenhorn.md",
-    "HackTheBox/Machines/Editorial.md",
-    "HackTheBox/Machines/Cicada.md",
-    "HackTheBox/Machines/BoardLight.md",
-    "HackTheBox/Machines/Blurry.md",
-    "ADV CODE",
-    "Attachments/The Needle.zip",
-    "HackTheBox/Challenges",
-    "Cicada",
-    "Internship",
-    "HackTheBox/Modules",
-    "HackTheBox/Sherlocks",
-    "HackTheBox",
-    "Attachments/CTI Martin lee.pdf",
-    "Attachments/D2WFP_A_Novel_Protocol_for_Forensically_Identifyin.pdf",
-    "TryHackMe/Untitled.canvas"
+    "Untitled.canvas"
   ]
 }
