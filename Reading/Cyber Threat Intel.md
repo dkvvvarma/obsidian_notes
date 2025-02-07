@@ -1,6 +1,12 @@
 
 
 
+
+
+
+![[CTI Martin lee.pdf]]
+
+
 Cyber threat Intelligence describes the techniques and models used in Cyber Threat Landscape .It consists of survey of ideas, views and concepts rather than the practical hands-on experience. It is open for anyone who wishes to learn about the domain or pursue a career in cyberscape.
 
 
