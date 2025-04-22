@@ -146,13 +146,97 @@ user.txt
 albert@alert:~$ cat user.txt 
 <REDACTED>
 ```
+9af0f39f75ee0088d8f078c52fa0b350
 
 ### Step-5
 privilege escalation
 
+I checked to see what are the ports being utilized
+
+```bash
+albert@alert:~$ ss -lntp
+State    Recv-Q   Send-Q     Local Address:Port     Peer Address:Port  Process  
+LISTEN   0        4096       127.0.0.53%lo:53            0.0.0.0:*              
+LISTEN   0        128              0.0.0.0:22            0.0.0.0:*              
+LISTEN   0        4096           127.0.0.1:8080          0.0.0.0:*              
+LISTEN   0        128                 [::]:22               [::]:*              
+LISTEN   0        511                    *:80                  *:*    
+```
+
+```bash
+
+albert@alert:~$ cat /etc/apache2/sites-enabled/000-default.conf 
+<VirtualHost *:80>
+    ServerName alert.htb
+
+    DocumentRoot /var/www/alert.htb
+
+    <Directory /var/www/alert.htb>
+        Options FollowSymLinks MultiViews
+        AllowOverride All
+    </Directory>
+
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} !^alert\.htb$
+    RewriteCond %{HTTP_HOST} !^$
+    RewriteRule ^/?(.*)$ http://alert.htb/$1 [R=301,L]
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName statistics.alert.htb
+
+    DocumentRoot /var/www/statistics.alert.htb
+
+    <Directory /var/www/statistics.alert.htb>
+        Options FollowSymLinks MultiViews
+        AllowOverride All
+    </Directory>
+
+    <Directory /var/www/statistics.alert.htb>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        AuthType Basic
+        AuthName "Restricted Area"
+        AuthUserFile /var/www/statistics.alert.htb/.htpasswd
+        Require valid-user
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+lets forward this to us
+
+
+![[Pasted image 20250307184209.png]]
+
+
+
+
+![[Pasted image 20250307184901.png]]
+
+
+```bash
+# whoami
+root
+# cd root
+# ls
+root.txt
+scripts
+# cat root.txt
+<redacted>
+```
+ca96dd63e3f112c0ee8e8fd10e5c631a
 
 
 
 
 
 0e1a3f7c1118db64ba942639ee003c82
+
+
+

@@ -44,6 +44,7 @@ Each department might have unique protocols for acquiring digital artefacts and 
 - Checking for **drive encryption**.
 - Taking an image of the drive(s).
 
+![[Pasted image 20250220091352.png]]
 
 Process for Establishing Chain of Custody
 
@@ -94,3 +95,6 @@ we use AccessData Registry Viewer to analyze NTUSER.dat under the user of the wi
 Bulk extractor can find a website domain name, email, and other useful information in memory, but after Tor browser close it is less than Tor browser open
 
 ![[Pasted image 20241028113707.png]]
+
+
+![[Pasted image 20250220091604.png]]

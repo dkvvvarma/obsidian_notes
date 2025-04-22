@@ -121,3 +121,127 @@ The exercise demonstrated that advanced C2 frameworks like Havoc can effectively
 - Microsoft Defender Documentation: [https://docs.microsoft.com/en-us/microsoft-365/security/defender/](https://docs.microsoft.com/en-us/microsoft-365/security/defender/)
 - Havoc C2 Framework GitHub Repository: [https://github.com/HavocFramework](https://github.com/HavocFramework)
 - MITRE ATT&CK Framework: [https://attack.mitre.org/](https://attack.mitre.org/)
+
+
+
+### Environment Setup
+
+I set up my testing environment with three machines: a Kali Linux attacker machine running Havoc C2, a Windows 11 victim machine with Defender enabled, and a Windows 10 victim machine via Flare VM. All were connected to the same local network to ensure seamless communication, as confirmed by network configuration checks.
+
+Windows 11
+![[Pasted image 20250407160128.png]]
+
+Windows 10(FLARE VM)
+![[Pasted image 20250407160128.png]]
+
+Once the machine are up and running 
+
+### Attacker Machine Setup
+
+1. **Install Havoc C2 and Dependencies:**  
+    On my attacker machine, I installed Havoc C2 along with all its required dependencies.  
+     ![[Pasted image 20250407163113.png]]
+    
+2. **Set Up and Initialize the Teamserver:**  
+    After installing the dependencies for the teamserver, I initialized it. Once it was running, I confirmed the status.  
+     ![[Pasted image 20250407163303.png]]
+     
+    
+3. **Install and Run the Havoc Client Module:**  
+    I installed the Havoc client dependencies and executed the client module, filling in the desired parameters for my session.  
+    ![[Pasted image 20250407163253.png]]
+
+
+#### Execution
+![[Pasted image 20250407162423.png]]
+
+
+In this graph view from the Havoc C2 console, I have two active agents running the **Notepad-0xWayne.exe** payload on different Windows systems (indicated by the Windows icons with lightning bolts). The firewall icon in the center represents the Havoc C2 server or a network boundary. Each green arrow shows the agents (on the victim machines) connecting back to the server, illustrating the established reverse shells and their session identifiers.
+
+
+![[Pasted image 20250407162610.png]]
+This image shows the **Event Viewer** tab of the **Havoc C2 Framework** during my operation.
+
+- The framework version is `0.7` with the codename **"Bites The Dust."**
+- At **15:34:21**, the `spider` (client) successfully connected to the teamserver.
+- At **15:35:32**, I started the listener named **"0xWayne"**.
+- From **15:56:55** to **16:15:50**, multiple agent sessions were initialized:
+    - Several agents connected from the IP address `10.10.10.22`, all tagged as **MALWARE**.
+    - One session at **16:15:50** was from a different machine `10.10.10.21`, identified by hostname `DESKTOP-JG1FQH7`.
+
+
+This log confirms multiple successful reverse shell connections from my payloads, showing the live control established over the victim systems
+
+
+---
+#### Payload Generation and Deployment
+
+1. **Start a New Event Session:**  
+    I ensured a clean session by starting new event tabs so that no prior activities were recorded.
+    ![[Pasted image 20250407153443.png]]
+2. **Open the Listener Tab:**  
+    I opened a new listener tab from the payloads > attack section.  
+    
+3. **Create a Listener:**  
+    I proceeded to create a listener with the required configuration.  
+    _Reference Image: ![[Pasted image 20250407153526.png]]
+    
+4. **Generate a Payload:**  
+    I generated a payload using the following parameters (payload options were selected as per my requirements).  
+     ![[Pasted image 20250407153654.png]] and ![[Pasted image 20250407154334.png]]
+    The generated payload was clean with no pre-inputs.  
+     ![[Pasted image 20250407153750.png]]
+    
+5. **Save the Payload:**  
+    I saved the generated payload to the desired folder.
+    
+6. **Delivering the Payload:**  
+    I hosted a Python server on my attacker machine to serve the payload. On the victim machines, I downloaded the payload using a web browser or direct command.
+    
+    ``` Bash
+┌──(dkvv㉿kali)-[~/Desktop/Payloads]
+└─$ ls
+Notepad-0xWayne.exe
+┌──(dkvv㉿kali)-[~/Desktop/Payloads]
+└─$ python -m http.server 80
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/)
+```
+
+
+---
+
+#### Windows 11 Specific Actions
+
+1. **Credential File Creation:**  
+    On the Windows 11 machine, I created a sample text file containing credentials.  
+     ![[Pasted image 20250407155948.png]] and ![[Pasted image 20250407155335.png]]
+    
+2. **Accessing the Victim Machine:**  
+    Once I gained a reverse shell, I accessed the victim machine’s contents to read the credentials.  
+    _Reference Images: ![[Pasted image 20250407160928.png]] and ![[Pasted image 20250407160911.png]]_
+
+
+
+---
+
+#### Windows 10 Specific Actions
+
+1. **Downloading Files Using Havoc Commands:**  
+    On the Windows 10 machine, I used Havoc’s built-in commands to download a `jpg` image file into the attacker machine. I also created a sample text file with credentials.
+    ![[Pasted image 20250407161245.png]]
+2. **Reverse Shell Access and File Retrieval:**  
+    After obtaining a reverse shell on Windows 10, I downloaded the image to my attacker machine.  
+    ![[Pasted image 20250407162324.png]]
+    
+3. **Viewing Looted Files:**  
+    I verified that the downloaded files were accessible via the loot view in the interface.  
+    _Reference Image: _  
+    ![[Pasted image 20250407162305.png]]
+    I double-clicked to download the files to my local machine, including reading and saving the password file.  
+    _Reference Images: ![[Pasted image 20250407162335.png]]_
+    
+
+
+
+
+
