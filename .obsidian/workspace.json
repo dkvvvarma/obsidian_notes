@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c0183dc99ee8cffd",
+        "id": "d6b242c90fc12501",
         "type": "tabs",
         "children": [
           {
-            "id": "337bb38c48eca353",
+            "id": "83eb7e433aa23ee8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Certs/CDSA/SOC Prerequisites/Intro to Windows Command Line.md",
+                "file": "HackTheBox/Machines/Imagery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to Windows Command Line"
-            }
-          },
-          {
-            "id": "afa03fc82ff8aeab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Certs/CJSA/Network Enumeration with NMAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Network Enumeration with NMAP"
-            }
-          },
-          {
-            "id": "1549bdc89cc79761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Certs/CJSA/Footprinting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Footprinting"
+              "title": "Imagery"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8dfc95fa8cc597a7",
@@ -185,64 +155,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "1549bdc89cc79761",
+  "active": "4e298a59ce9dd622",
   "lastOpenFiles": [
-    "HTB Certs/CJSA/Network Enumeration with NMAP.md",
+    "HackTheBox/Machines/Spookifier.md",
+    "HackTheBox/Machines/Alert.md",
+    "HackTheBox/Machines/1- List.md",
+    "HTB Certs/CJSA/Incident Handling Process.md",
+    "Attachments/Pasted image 20260107222921.png",
+    "Attachments/Pasted image 20260106210403.png",
+    "Attachments/Pasted image 20260106204901.png",
+    "HTB Certs/CJSA/Using the Metasploit Framework.md",
+    "HackTheBox/Machines/Greenhorn.md",
+    "Attachments/Pasted image 20260104171302.png",
+    "Attachments/Pasted image 20260104165152.png",
+    "Attachments/Pasted image 20260102234520.png",
+    "1 Learning process/Useful command.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "1 Learning process/Way of thinking.md",
+    "HackTheBox/Season 9 Gacha/Expressway.md",
+    "HackTheBox/Machines/Imagery.md",
+    "Attachments/Pasted image 20251001035620.png",
+    "Attachments/Pasted image 20251001035008.png",
+    "Attachments/Pasted image 20251001033620.png",
+    "Attachments/Pasted image 20251001033542.png",
+    "HackTheBox/Season 9 Gacha",
+    "HTB Certs/CJSA/Hacking Wordpress.md",
     "HTB Certs/CJSA/Footprinting.md",
-    "Attachments/Pasted image 20250807232632.png",
     "HTB Certs/CDSA/SOC Prerequisites/Intro to Windows Command Line.md",
+    "HTB Certs/CJSA/Network Enumeration with NMAP.md",
+    "Project/Soc Automation project.md",
     "HTB Certs/CJSA/Intro to Web Applications.md",
-    "Attachments/Pasted image 20250805225741.png",
     "Network Foundations.md",
     "HTB Certs/CJSA/Intro to Info Sec.md",
     "HTB Certs/CPTS/01.Pentesting process.md",
-    "Attachments/Pasted image 20250803164129.png",
     "HTB Certs/CPTS",
-    "Attachments/Pasted image 20250803161823.png",
-    "Attachments/Pasted image 20250803160332.png",
-    "Attachments/Pasted image 20250803154814.png",
     "HTB Certs",
     "HTB Certs/CJSA",
-    "Attachments/Pasted image 20250708214648.png",
-    "Attachments/Pasted image 20250629080041.png",
     "HackTheBox/Modules/Web Requests.md",
     "HTB Certs/CDSA/SOC Prerequisites",
     "HTB Certs/CDSA",
-    "Attachments/Pasted image 20250606210849.png",
-    "Attachments/Pasted image 20250524224347.png",
     "HackTheBox/Modules/Linux Fundamentals.md",
     "C++ Notes/History.md",
     "C++ Notes",
     "HackTheBox/Modules/Windows Fundamentals.md",
     "HackTheBox/Machines/Sightless.md",
     "Welcome.md",
-    "1 Learning process/Way of thinking.md",
     "TryHackMe/SOC/SOC L1 Alert Triage.md",
     "TryHackMe/SOC",
-    "HackTheBox/Modules/Getting started.md",
-    "1 Learning process",
-    "Project/bash program.md",
-    "Project/Soc Automation project.md",
-    "Project/Understanding Havoc C2.md",
-    "HackTheBox/Sherlocks/Crown Jewel-1.md",
-    "fiercest comp.md",
-    "Unindexed Web Forensics/Unveiling Anonymity.md",
-    "Unindexed Web Forensics/Project.md",
-    "Unindexed Web Forensics/Based.md",
-    "HackTheBox/Machines/Nibbles.md",
-    "HackTheBox/Machines/Underpass.md",
-    "Assignmenta",
     "HackTheBox/Untitled.canvas",
-    "Threat Intel",
     "Untitled.canvas"
   ]
 }

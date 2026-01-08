@@ -2,5 +2,8 @@
   "obsidian-git",
   "highlightr-plugin",
   "pseudocode-in-obs",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "automatic-table-of-contents",
+  "better-word-count",
+  "dashboard-navigator"
 ]
